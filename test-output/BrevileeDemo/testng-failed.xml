@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [BrevileeDemo]">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="com.ecom.qa.testcases.PartsPageTest">
+        <methods>
+          <include name="selectPartsAccessoriesPageTest" invocation-numbers="0"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.ecom.qa.testcases.PartsPageTest -->
+      <class name="com.ecom.qa.testcases.ProductsPageTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="selectProductTest" invocation-numbers="1"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.ecom.qa.testcases.ProductsPageTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [BrevileeDemo] -->

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="DemoSuite">
+
+	<listeners>
+		<listener class-name="com.ecom.qa.util.Reporting" />
+	</listeners>
+
+	<test thread-count="5" name="BrevilleTest">
+		<classes>
+			<class name="com.ecom.qa.testcases.PartsPageTest" />
+			<class name="com.ecom.qa.testcases.SignUpPageTest" />
+			<class name="com.ecom.qa.testcases.HomePageTest" />
+			<class name="com.ecom.qa.testcases.ProductsPageTest" />
+			<class name="com.ecom.qa.testcases.SearchPageTest" />
+			<class name="com.ecom.qa.testcases.RecipesPageTest" />
+		</classes>
+	</test> <!-- BrevilleTest -->
+</suite> <!-- Suite -->

@@ -1,0 +1,24 @@
+2020-05-07 17:53:32,577 [main] INFO ecommerce - 6search results forNespresso
+2020-05-07 17:54:07,770 [main] INFO ecommerce - 5search results forEspresso
+2020-05-07 17:56:12,095 [main] INFO ecommerce - 6search results forNespresso
+2020-05-07 17:56:47,587 [main] INFO ecommerce - 5search results forEspresso
+2020-05-07 18:00:58,820 [main] INFO ecommerce - 6search results forNespresso
+2020-05-07 18:01:33,783 [main] INFO ecommerce - 5search results forEspresso
+2020-05-07 18:02:30,866 [main] INFO ecommerce - 6search results forNespresso
+2020-05-07 18:05:17,580 [main] INFO ecommerce - 6search results forNespresso
+2020-05-07 18:05:41,620 [main] INFO ecommerce - 5search results forEspresso
+2020-05-07 18:15:46,000 [main] INFO ecommerce - Verifying Home Page Title
+2020-05-07 18:16:29,375 [main] ERROR ecommerce - class com.ecom.qa.testcases.ProductsPageTest Failed
+2020-05-07 18:16:49,404 [main] INFO ecommerce - 6search results forNespresso
+2020-05-07 18:17:16,129 [main] INFO ecommerce - 5search results forEspresso
+2020-05-07 18:27:24,988 [main] INFO ecommerce - Verifying Home Page Title
+2020-05-07 18:27:42,239 [main] INFO ecommerce - class com.ecom.qa.testcases.ProductsPageTest Passed
+2020-05-07 18:27:49,166 [main] ERROR ecommerce - class com.ecom.qa.testcases.ProductsPageTest Failed
+2020-05-07 18:28:07,647 [main] INFO ecommerce - 6search results forNespresso
+2020-05-07 18:28:32,206 [main] INFO ecommerce - 5search results forEspresso
+2020-05-07 18:42:38,003 [main] INFO ecommerce - Verifying Home Page Title
+2020-05-07 20:27:09,465 [main] INFO ecommerce - Verifying Home Page Title
+2020-05-07 20:27:24,158 [main] ERROR ecommerce - class com.ecom.qa.testcases.ProductsPageTest Failed
+2020-05-07 20:27:36,325 [main] ERROR ecommerce - class com.ecom.qa.testcases.ProductsPageTest Failed
+2020-05-07 20:27:58,545 [main] INFO ecommerce - 6search results forNespresso
+2020-05-07 20:28:24,874 [main] INFO ecommerce - 5search results forEspresso
