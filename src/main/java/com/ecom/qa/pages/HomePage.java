@@ -15,19 +15,12 @@ public class HomePage extends BasePage{
 	WebDriver driver;
 
 	@CacheLookup @FindBy(xpath = "//img[@title='Breville']") public WebElement imageTitle;
-
 	@CacheLookup @FindBy(xpath = "//a[contains(text(),'Products')]") public WebElement productsMenu;
-
 	@CacheLookup @FindBy(xpath = "//a[contains(text(),'Parts and Accessories')]") public WebElement partsAndAccessoriesLink;
-	
 	@CacheLookup @FindBy(xpath = "//a[contains(text(),'Recipes')]") public WebElement recipesLink;
-	
 	@CacheLookup @FindBy(xpath = "//a[contains(text(),'Signup for News')]") public WebElement signupforNewsLink;
-
 	@CacheLookup @FindBy(xpath = "//span[text()='Call']") public WebElement callButton;
-	
 	@CacheLookup @FindBy(xpath = "//span[text()='Search']") public WebElement searchButton;
-
 	@CacheLookup @FindBy(xpath = "//span[text()='Cart']") public WebElement cartButton;
 	
 	
@@ -108,7 +101,7 @@ public class HomePage extends BasePage{
 	
 	public CartPage clickOnCartButton(){
 		new WebDriverWait(driver, 5).until(ExpectedConditions.visibilityOf(cartButton)).click();
-		return new CartPage();
+		return new CartPage(driver);
 	}
 	
 	// ********************************************************************************************//

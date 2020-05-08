@@ -39,7 +39,7 @@ public class Reporting extends TestListenerAdapter
 		extent.setSystemInfo("Environemnt","QA");
 		extent.setSystemInfo("user","pavan");
 		
-		htmlReporter.config().setDocumentTitle("nopCommerce Test Project"); // Tile of report
+		htmlReporter.config().setDocumentTitle("Breville Demo Test Project"); // Tile of report
 		htmlReporter.config().setReportName("Functional Test Report"); // name of the report
 		htmlReporter.config().setTestViewChartLocation(ChartLocation.TOP); //location of the chart
 		htmlReporter.config().setTheme(Theme.DARK);
